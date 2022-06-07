@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-image: url(./bg-header-1.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.menutren {
+  background-color: transparent;
+}
+
+.menuphai {
+  float: right !important;
+}
+
+.logo {
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  background-color: #ec6952;
+  padding: 28px 28px;
+  position: relative;
+  top: -24px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 700;
+}
+
+.menuphai a.nav-link {
+  text-transform: uppercase;
+  padding: 28px 23px;
+  font-size: 11px;
+  font-family: 'Roboto Slab', serif;
+  color: white !important;
+  color: #e6e6e6;
+  transition: 0.4s;
+}
+
+a.nav-link:hover {
+  color: #ec6952 !important;
+}
+
+li.active a.nav-link {
+  color: #ec6952 !important;
+}
+
+.top .menuphai .nutsignup {
+  border-color: white;
+  padding: 10px 12px;
+  margin-top: 18px;
+}
+
+.top .menuphai .nutsignup:hover {
+  border-color: #ec6952;
+  background-color: #ec6952;
+  color: white !important;
+}
+
+.banner h1 {
+  color: #dbdbdb;
+  padding-top: 253px;
+}
+.banner p {
+  color: gray;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 48px;
+}
+.banner a {
+  font-family: 'Roboto Slab', serif;
+  font-size: 19px;
+  font-weight: 700;
+  padding-bottom: 14px 60px;
+  background-color: #ec6952;
+}
+
+.logo.chucam{
+  background-color: white;
+  color: #ec6952;
+}
+@media (max-width: 576px) {
+  .banner h1 {
+    padding-top: 125px;
+    font-size: 37px;
+  }
+  .top {
+    height: 600px;
+  }
+}
+
+.carousel-indicators li {
+  background-color: gray;
+}
+
+.carousel-indicators li:active {
+  background-color: #ec6952;
+}
+
+@media (max-width: 576px) {
+  a.logo {
+    width: 200px;
+    top: -15px;
+    margin-left: 90px;
+  }
+  .menuphai {
+    background-color: #253340;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  a.nav-link {
+    padding: 10px;
+  }
+}
