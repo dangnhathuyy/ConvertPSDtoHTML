@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.top {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./bg-masthead_01.jpg);
+  background-size: cover;
+}
+
+.menutren {
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menuphai {
+  float: right;
+}
+
+.menuphai li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.banner {
+  color: white;
+}
+
+.tdto {
+  padding-top: 20%;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 17px;
+}
+
+.tdto::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  position: absolute;
+  background-color: orange;
+  left: 50%;
+  bottom: 0;
+  margin-left: -50px;
+}
+
+.trichdan {
+  font-size: 25px;
+}
+
+.nutaction {
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+
+.noidung2 {
+  background-color: #f05f40;
+  color: white;
+  height: 80vh;
+  padding: 2em;
+}
+
+.tdnd2 {
+  padding-top: 6%;
+}
+
+.nutaction2 {
+  padding: 15px 50px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  padding: 20px 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 576px) {
+  .top .logo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .menutren {
+    background-color: black;
+  }
+  .navbar .menuphai li a {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px dashed;
+    padding: 20px 0;
+    display: block;
+  }
+}
